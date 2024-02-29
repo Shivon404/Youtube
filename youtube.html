@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="bg.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="suggestion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="youtube-bg">
+
+    <div class="left-sidebar"></div>
+    <div class="right-sidebar"></div>
+    <div class="container">
+      <div class="video-area">
+        <div style="position: relative;">
+          <video class="main-vid video-hover" id="video">
+            <source  src="Dancing Cockroach On Stage.mp4" type="video/mp4" controls>
+            
+          </video>
+
+          <progress class="prog" id="progressBar" max="100" value="0" class="progressBar" style="position: absolute; bottom: 0; left: 0; width: 100%;"></progress>
+
+
+          <div class="video-buttons">
+            <i onclick="playPauseToggle()" id="playPauseIcon" class="fa fa-play" style="font-size:22px; color: white;"></i>
+            <i class="fa fa-step-forward" style="font-size:22px; color: white; margin-left: 20px;"></i>
+            <i class="fa fa-volume-up" style="font-size:22px; color: white; margin-left: 20px;"></i>
+            <i class="fa fa-cc" style="font-size:22px; color: white; margin-left: 365px;"></i>
+            <i class="fa fa-gear" style="font-size:22px; color: white; margin-left: 20px;"></i>
+            <i class="fa fa-square-o" style="font-size:22px; color: white; margin-left: 20px;"></i>
+            <i class='fa fa-arrows-alt' style='font-size:22px; color: white; margin-left: 20px;'></i>
+          </div>
+          
+        </div>
+        <p class="vid-title">Dancing Cockroach on Stage</p>
+  
+        <div class="yt-info">
+          <img class="vid-user" src="b85f3a28fd572685b0dab45537113294.jpg">
+    
+          <div class="vid-info">
+            <div class="user-info">
+              <p class="username">Youtube User</p>
+              <p class="subs">45K subscribers</p>
+            </div>
+            
+    
+            <button class="sub">Subscribe</button>
+            
+            <button class="like-button"><img src="like.png" class="button-icon"></button>
+            <div class="vertical-line"></div>
+            
+            <button class="dislike-button"><img src="dislike.png" class="button-icon"></button>
+            <button class="share-button"><i class="fa fa-share" style="font-size:16px"></i> Share</button>
+            <button class="dl-button"><i class="fa fa-download" style="font-size:16px"></i>  Download</button>
+            <button class="menu-button"><i class="fa fa-ellipsis-h" class="button-icon" style="font-size:16px"></i></button>
+          </div>
+        </div>
+        
+  
+      </div>
+      <div class="suggestions-area">
+        <div class="scroll-lists">
+          <button class="all">All</button>
+          <button class="from">From Youtube User</button>
+          <button class="playlist">Playlists</button>
+          <button class="side">></button>
+        </div>
+
+        <div class="vid-suggest">
+            <a href="https://youtu.be/59CopbkRP04?si=dBEuOFA4jVadoDuq">
+              <div class="vid-container">
+                <img class="vid" src="laufey.webp">
+                <div class="vid-time">31:50</div>
+                <div class="text-container">
+                  <p class="yt-suggest-title">Laufey PLaylist<br></p>
+                  <p class="yt-suggest-user">Robin</p>
+                  <p class="yt-suggest-views">1.8m views &middot; 3 months ago</p>
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://youtu.be/5LKmvEXbd8E?si=_55oucwKr2WmDUni">
+              <div class="vid-container">
+                <img class="vid" src="valentines.webp">
+                <div class="vid-time">51:52</div>
+                <div class="text-container">
+                  <p class="yt-suggest-title">Valentines Playlist<br></p>
+                  <p class="yt-suggest-user">Endyxow</p>
+                  <p class="yt-suggest-views">7.5K views &middot; 2 years ago</p>
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://youtu.be/_sTFY-RzPfE?si=qk38yx19zTxAYjZq">
+              <div class="vid-container">
+                <img class="vid" src="tv.webp">
+                <div class="vid-time">47:24</div>
+                <div class="text-container">
+                  <p class="yt-suggest-title">TV GIRL _ PLAYLIST<br></p>
+                  <p class="yt-suggest-user">milly</p>
+                  <p class="yt-suggest-views">235K views &middot; 1 month ago</p>
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://youtu.be/trlnA8IlLcs?si=sZtsXB8iSvgHaBV3">
+              <div class="vid-container">
+                <img class="vid" src="alex.webp">
+                <div class="vid-time">49:21</div>
+                <div class="text-container">
+                  <p class="yt-suggest-title">Alex G PLaylist<br></p>
+                  <p class="yt-suggest-user">12gumshoe3</p>
+                  <p class="yt-suggest-views">286K views &middot; 10 months ago</p>
+                </div>
+              </div>
+            </a>
+            
+            <a href="https://youtu.be/nGQTSmywOlg?si=E_PQ4vPNqD0z9duD">
+              <div class="vid-container">
+                <img class="vid" src="bea.webp">
+                <div class="vid-time">33:38</div>
+                <div class="text-container">
+                  <p class="yt-suggest-title">Beabadoobee pLaylist<br></p>
+                  <p class="yt-suggest-user">oreosito</p>
+                  <p class="yt-suggest-views">29K views &middot; 4 weeks ago</p>
+                </div>
+              </div>
+            </a>
+          
+        </div>
+        
+      </div>
+  
+    </div>
+    
+    <div class="yt-header">
+      <div class="left-header">
+        <img class="hamburger-logo" src="hamburger.png">
+        <img class="youtube-logo" src="youtube-logo.png">
+      </div>
+      <div class="middle-header">
+        <input class="yt-search" type="text" placeholder="Search">
+        <img class="search-logo" src="search.png">
+        <img class="mic-logo" src="mic.png">
+      </div>
+      <div class="right-header">
+        <img class="add-logo" src="add.png">
+        <img class="bell-logo" src="bell.png">
+        <img class="profile-logo" src="b85f3a28fd572685b0dab45537113294.jpg">
+      </div>
+    </div>
+
+    <script src="function.js"></script>
+  </body>
+</html>
